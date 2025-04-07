@@ -1,0 +1,8 @@
+import pandas as pd
+import numpy as np
+sample=np.arange(1,11)
+print(sample)
+arr=np.vsplit(sample,2)
+print(arr)
+for i,arr in enumerate(arr):
+    print(f"SubSet {i+1} is :{arr}")
