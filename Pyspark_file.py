@@ -6,4 +6,4 @@ y=[10,20,30,40,70]
 plt.hist(x,y)
 plt.xlabel("Names")
 plt.ylabel("Salary")
-plt.show()
+plt.show() 
